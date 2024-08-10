@@ -1,1 +1,12 @@
 # Configuration file for model and API keys
+{
+  "api_key": "your-openai-api-key-here",
+  "model": ["gpt-4"],
+  "request_timeout": 600,
+  "temperature": 0,
+  "retrieve_config": {
+    "task": "qa",
+    "docs_path": "./data/rag_document.pdf",
+    "collection_name": "rag_collection"
+  }
+}
